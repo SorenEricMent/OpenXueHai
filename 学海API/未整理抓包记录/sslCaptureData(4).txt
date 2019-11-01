@@ -1,0 +1,94 @@
+
+
+Request Head:
+
+GET /api/v1/admin/platform/checkSurvey?accessToken=eyJhbGciOiJIUzI1NiJ9.eyJ1aWQiOiI1MTIzMCIsInN1YiI6IjMzMDEwNTIwMDUwMzAxMjUxNCIsImNyZWF0ZWQiOnsiZXBvY2hTZWNvbmQiOjE1NjQyOTEyNjIsIm5hbm8iOjk4OTAwMDAwMH0sImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1NjQ4OTYwNjIsInNpZCI6IjViODVhMmI5OTA2YTQ4YjI5YTdiMWMwYmE3NjM4MGY5In0.wntddQm5z6pq0o5Q4VCfhHmH1cvWRK77goXLgzkJiJo&schoolId=957&userId=51230&userType=1&sign=5ca619f53427d5f4ab377967d5c5252e&t=1564291357645 HTTP/1.1
+authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1aWQiOiI1MTIzMCIsInN1YiI6IjMzMDEwNTIwMDUwMzAxMjUxNCIsImNyZWF0ZWQiOnsiZXBvY2hTZWNvbmQiOjE1NjQyOTEyNjIsIm5hbm8iOjk4OTAwMDAwMH0sImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1NjQ4OTYwNjIsInNpZCI6IjViODVhMmI5OTA2YTQ4YjI5YTdiMWMwYmE3NjM4MGY5In0.wntddQm5z6pq0o5Q4VCfhHmH1cvWRK77goXLgzkJiJo
+x-b3-traceid: 000000000000c81e0000016c3707dbd0
+schoolid: 957
+host: ztp.yunzuoye.net
+content-type: application/json
+connection: Keep-Alive
+userid: 51230
+accept: */*
+user-agent: com.xuehai.launcher/v3.25.1.20190618S (SM-P355C; android; 6.0.1; R22M1005CEY)
+Accept-Encoding: gzip
+
+
+Body:
+
+
+
+Response Head:
+
+HTTP/1.1 200 OK
+Server: nginx/1.14.0
+Date: Sun, 28 Jul 2019 05:22:28 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Expires: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+X-XSS-Protection: 1; mode=block
+Pragma: no-cache
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+
+
+Body:
+
+{
+	"total":1,
+	"title":[
+		"暑假通知"
+	],
+	"remind":[
+		"你有一份假期通知，请及时查看！"
+	],
+	"url":"https://admin.yunzuoye.net/survey/html/summerSafe/index.html?userId=51230&schoolId=957",
+	"target":"webview"
+}
+
+Request Head:
+
+POST /api/v1/users/51230/clients/?sign=9adda7a3e8bc8e268ee8a29de6e5ebfa&t=1564291360486 HTTP/1.1
+authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1aWQiOiI1MTIzMCIsInN1YiI6IjMzMDEwNTIwMDUwMzAxMjUxNCIsImNyZWF0ZWQiOnsiZXBvY2hTZWNvbmQiOjE1NjQyOTEyNjIsIm5hbm8iOjk4OTAwMDAwMH0sImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1NjQ4OTYwNjIsInNpZCI6IjViODVhMmI5OTA2YTQ4YjI5YTdiMWMwYmE3NjM4MGY5In0.wntddQm5z6pq0o5Q4VCfhHmH1cvWRK77goXLgzkJiJo
+x-b3-traceid: 000000000000c81e0000016c3707e6e9
+schoolid: 957
+host: ztp.yunzuoye.net
+content-type: application/json; charset=utf-8
+connection: Keep-Alive
+userid: 51230
+accept: */*
+user-agent: com.xuehai.launcher/v3.25.1.20190618S (SM-P355C; android; 6.0.1; R22M1005CEY)
+Content-Length: 92
+Accept-Encoding: gzip
+
+
+Body:
+
+{
+	"appId":"zty_stu",
+	"clientId":"68f64c599374265a",
+	"deviceId":"R22M1005CEY",
+	"providerId":"TT"
+}
+
+Response Head:
+
+HTTP/1.1 201 Created
+Server: nginx/1.14.0
+Date: Sun, 28 Jul 2019 05:22:31 GMT
+Transfer-Encoding: chunked
+Connection: keep-alive
+Expires: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+X-XSS-Protection: 1; mode=block
+Pragma: no-cache
+Location: /api/v1/users/51230/clients/TT_68f64c599374265a
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+
+
+Body:
+

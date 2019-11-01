@@ -1,0 +1,36 @@
+
+
+Request Head:
+
+GET /pnlogin/as/login?deviceInfo=deviceinfo&clientId=68f64c599374265a&appId=zty_stu&appSecret=dsjiqw495soisoss&sign=4e54ef9365dd5858576dd32fabce0c54&t=1564291481986 HTTP/1.1
+authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1aWQiOiI1MTIzMCIsInN1YiI6IjMzMDEwNTIwMDUwMzAxMjUxNCIsImNyZWF0ZWQiOnsiZXBvY2hTZWNvbmQiOjE1NjQyOTEyNjIsIm5hbm8iOjk4OTAwMDAwMH0sImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1NjQ4OTYwNjIsInNpZCI6IjViODVhMmI5OTA2YTQ4YjI5YTdiMWMwYmE3NjM4MGY5In0.wntddQm5z6pq0o5Q4VCfhHmH1cvWRK77goXLgzkJiJo
+x-b3-traceid: 000000000000c81e0000016c3709c183
+schoolid: 957
+host: 43.227.195.99
+content-type: application/json; charset=UTF-8
+connection: Keep-Alive
+userid: 51230
+user-agent: com.xuehai.launcher/v3.25.1.20190618S (SM-P355C; android; 6.0.1; R22M1005CEY)
+Accept-Encoding: gzip
+
+
+Body:
+
+
+
+Response Head:
+
+HTTP/1.1 200 
+Server: nginx/1.14.0
+Date: Sun, 28 Jul 2019 05:24:32 GMT
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 38
+Connection: keep-alive
+
+
+Body:
+
+{
+	"obj":"68f64c599374265a",
+	"retCode":0
+}

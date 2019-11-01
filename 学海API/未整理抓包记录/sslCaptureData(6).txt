@@ -1,0 +1,54 @@
+
+
+Request Head:
+
+POST /ztp/api/v1/platform/login?sign=b62b155219c924ca3a80b632c6ff4fa0&t=1567862695654 HTTP/1.1
+Accept: */*
+User-Agent: com.xuehai.launcher/v3.25.1.20190618S (Redmi Note 5; android; 9; 868773032789755)
+X-B3-TraceId: 
+SchoolId: null
+Content-Type: application/json; charset=utf-8
+Content-Length: 200
+Host: 43.227.195.98
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+
+Body:
+
+{
+	"userName":"xhls",
+	"password":"14019CF89F2F9458C1A1EB6C0ABDB918",
+	"deviceId":"868773032789755",
+	"osDisplay":"PKQ1.180904.001",
+	"imei":"868773032789755",
+	"ap":"wifi",
+	"mac":"9C:2E:A1:10:FE:BA",
+	"isNew":true
+}
+
+Response Head:
+
+HTTP/1.1 400 Bad Request
+Server: nginx/1.14.0
+Date: Sat, 07 Sep 2019 13:24:33 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Expires: 0
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+X-XSS-Protection: 1; mode=block
+Pragma: no-cache
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+
+
+Body:
+
+{
+	"traceId":"a3d89d12ff2e309a",
+	"code":400,
+	"msg":"请勿登录老师账号",
+	"description":null,
+	"errors":null
+}

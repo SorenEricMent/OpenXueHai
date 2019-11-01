@@ -1,0 +1,83 @@
+
+
+Request Head:
+
+GET /control/api/v1/forbidden/detail?schoolId=957&userId=51230&sign=26f5442e18c51ecdeeb3904ddfd61253&t=1564291404425 HTTP/1.1
+authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1aWQiOiI1MTIzMCIsInN1YiI6IjMzMDEwNTIwMDUwMzAxMjUxNCIsImNyZWF0ZWQiOnsiZXBvY2hTZWNvbmQiOjE1NjQyOTEyNjIsIm5hbm8iOjk4OTAwMDAwMH0sImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1NjQ4OTYwNjIsInNpZCI6IjViODVhMmI5OTA2YTQ4YjI5YTdiMWMwYmE3NjM4MGY5In0.wntddQm5z6pq0o5Q4VCfhHmH1cvWRK77goXLgzkJiJo
+x-b3-traceid: 000000000000c81e0000016c3708928e
+schoolid: 957
+host: 43.227.195.98
+content-type: application/json; charset=UTF-8
+connection: Keep-Alive
+userid: 51230
+user-agent: com.xuehai.launcher/v3.25.1.20190618S (SM-P355C; android; 6.0.1; R22M1005CEY)
+Accept-Encoding: gzip
+
+
+Body:
+
+
+
+Response Head:
+
+HTTP/1.1 200 
+Server: nginx/1.14.0
+Date: Sun, 28 Jul 2019 05:23:15 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+
+
+Body:
+
+{
+	"curfew":{
+		"beginTime":1564329540000,
+		"endTime":1564243200000,
+		"version":0
+	},
+	"periods":[
+		
+	]
+}
+
+Request Head:
+
+GET /control/api/v1/forbidden/detail?schoolId=957&userId=51230&sign=8cbe1ceb766c397291025def29fbc9c4&t=1564291415187 HTTP/1.1
+authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1aWQiOiI1MTIzMCIsInN1YiI6IjMzMDEwNTIwMDUwMzAxMjUxNCIsImNyZWF0ZWQiOnsiZXBvY2hTZWNvbmQiOjE1NjQyOTEyNjIsIm5hbm8iOjk4OTAwMDAwMH0sImF1dGhvcml0eSI6bnVsbCwiaXNzIjoiNmhTTmpXRzYzWGZlVGpTUDlrMTFVNHpCWHVFdUtpSkMiLCJleHAiOjE1NjQ4OTYwNjIsInNpZCI6IjViODVhMmI5OTA2YTQ4YjI5YTdiMWMwYmE3NjM4MGY5In0.wntddQm5z6pq0o5Q4VCfhHmH1cvWRK77goXLgzkJiJo
+x-b3-traceid: 000000000000c81e0000016c3708bc94
+schoolid: 957
+host: 43.227.195.98
+content-type: application/json; charset=UTF-8
+connection: Keep-Alive
+userid: 51230
+user-agent: com.xuehai.launcher/v3.25.1.20190618S (SM-P355C; android; 6.0.1; R22M1005CEY)
+Accept-Encoding: gzip
+
+
+Body:
+
+
+
+Response Head:
+
+HTTP/1.1 200 
+Server: nginx/1.14.0
+Date: Sun, 28 Jul 2019 05:23:25 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+
+
+Body:
+
+{
+	"curfew":{
+		"beginTime":1564329540000,
+		"endTime":1564243200000,
+		"version":0
+	},
+	"periods":[
+		
+	]
+}
